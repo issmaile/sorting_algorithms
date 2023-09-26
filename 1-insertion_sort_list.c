@@ -7,7 +7,7 @@
  * 
  * Return: return a pointer to the prev node
  */
-listint_t *swap_node(listint_i *node, listint_t **list)
+listint_t *swap_node(listint_t *node, listint_t **list)
 {
 	listint_t *pre = node->prev, *current = node;
 
