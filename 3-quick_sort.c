@@ -8,7 +8,7 @@
  *
  * Return: void
  */
-void swap(int *array, ssize_t i, ssize_t i2)
+void swap(int *array, ssize_t i1, ssize_t i2)
 {
 	int t;
 
