@@ -4,6 +4,8 @@
  * bubble_sort - sort array els from min to max val
  * @array: array to sort
  * @size: array size
+ *
+ * Return: void
  */
 void bubble_sort(int *array, size_t size)
 {
@@ -11,6 +13,7 @@ void bubble_sort(int *array, size_t size)
 
 	if (size < 2)
 		return;
+
 	for (i = 0; i < size; i++)
 		for (j = 0; j < size; j++)
 		{
