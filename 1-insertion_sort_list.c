@@ -4,7 +4,7 @@
  * swap_node - swap a node w the prev one
  * @node: node
  * @list: list of nodes
- * 
+ *
  * Return: return a pointer to the prev node
  */
 listint_t *swap_node(listint_t *node, listint_t **list)
